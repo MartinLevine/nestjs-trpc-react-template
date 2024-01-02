@@ -1,0 +1,26 @@
+{
+  "name": "@app/client",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "start": "rsbuild dev --open",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^4.0.0",
+    "@trpc/react-query": "^10.45.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^0.2.5",
+    "@rsbuild/plugin-react": "^0.2.5",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@unocss/postcss": "^0.58.0",
+    "@unocss/reset": "^0.58.0",
+    "unocss": "^0.58.0"
+  }
+}
